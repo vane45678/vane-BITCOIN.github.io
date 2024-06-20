@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    background-color: #1B263B;
+}
+h1{
+    font-family: Anton;
+    font-size: 90px;
+}
+p{
+    font-size: 18px;
+    font-family: arial;
+    color: white;
+}
+.Sam{
+    position: relative;
+    bottom: -20px;
+    justify-content: center;
+}
+.Zo{
+    position: relative;
+    bottom: -8px;
+    justify-content: center;
+}
+.rounded{
+    position: relative;
+    left: 200px;
+    height: 200px;
+    width: 360px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #37474F;
+    padding: 60px 0;
+    width: 100%; 
+    position: absolute; 
+    left: 0; 
+    bottom: -900PX; 
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.social-links {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+
+.social-links a {
+    position: relative;
+    left: -350px;
+    bottom: -15px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+    font-size: 20px;
+    margin-bottom: 12px; 
+}
+ 
+
+.social-links a:hover {
+    background-color:#3498DB;
+}
+
+@media(max-width: 991px) {
+    .footer-row {
+        text-align: center;
+    }
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+.derechos{
+    position: relative;
+    bottom: -40px;
+    color: white;
+    left: 500px;
+}
+h4{
+    position: relative;
+    left:-205px ;
+    bottom: 25px;
+    color: whitesmoke;
+}
+h5{
+    position: relative;
+    left:-205px ;
+    bottom: 22px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+h2{
+    color: white;
+    font-family: Oswald;
+    transition: .10s;
+}
+
+h3{
+    color: white;
+    font-family: Oswald;
+    transition: .5s;
+}
+h3:hover{
+    text-shadow: 4px 4px 8px royalblue;
+}
+.BIT{
+    height: 250px;
+    width: 315px;
+}
